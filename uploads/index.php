@@ -37,11 +37,12 @@ if ($fh = opendir($path)) {
     // stckoverflow in action :)
       $frname= substr($fname, 0, strrpos($fname, '.'));
       $links =  "<a href='$fname'><span class=link>🗎 $frname</span></a><br>";
+      echo $links."<br/>";
     }
   }
   closedir($fh);
 }
-echo $links."<br/>";
+
 ?>
 </div>
   </center>
