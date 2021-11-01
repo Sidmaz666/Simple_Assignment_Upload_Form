@@ -63,7 +63,7 @@ echo $loc;
 <style type="text/css">
 body{
 height:100%;
-overflow:hidden;
+overflow:auto;
 }
 .notifi{
 font-weight:bold;
@@ -80,7 +80,7 @@ max-width:90%;
 border: 2px solid #000000;
 }
 .inpstylef{
-border-bottom:2px solid #000000;
+border-bottom: 2px solid #000000;
 padding:0.5%;
 font-size:14px;
 font-weight:bold;
@@ -111,6 +111,11 @@ border:2px solid #000000;
 color:#151715;
 opacity:1;
 font-weight:bold;
+}
+.magic h3{
+    text-align: left;
+    padding-left: 260px;
+
 }
 </style>  
 </head>
@@ -149,9 +154,9 @@ font-weight:bold;
           <option value="PP" class="inpstyl">Philosopher</option>
         </select> 
         <br>
-        <br>
-	 <h3>Upload Assignment:</h3>
-        <input id="" class="inpstylef" type="file" name="assignment">
+        <br><div style="display:flex; flex-direction:column;  align-items: center;justify-content: center;">
+	 <h3 style="padding-left:50px" >Upload Assignment:</h3>
+        <input id="" class="inpstylef" type="file" name="assignment"></div>
         <br>
         <br>
         <br>

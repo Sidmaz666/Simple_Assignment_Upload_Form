@@ -42,7 +42,6 @@ if ($fh = opendir($path)) {
   }
   closedir($fh);
 }
-
 ?>
 </div>
   </center>
